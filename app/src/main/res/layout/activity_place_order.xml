@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    android:orientation="vertical"
+    android:layout_marginStart="10dp"
+    tools:context=".PlaceOrder">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/orderDetails"
+        android:fontFamily="serif"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tvOrder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:padding="10dp"
+        android:background="@drawable/background_featured"
+        android:text="Details here"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="@string/message"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:textSize="15sp"
+        android:textStyle="bold|italic" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnWhatsAppPlaceOrder"
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:background="@drawable/whatsapp" />
+
+        <Button
+            android:id="@+id/btnGmailPlaceOrder"
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:layout_marginStart="5dp"
+            android:background="@drawable/gmail" />
+
+        <Button
+            android:id="@+id/btnMessagePlaceOrder"
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:layout_marginStart="5dp"
+            android:background="@drawable/messaging" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="serif"
+        android:text="@string/payment"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvCost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="monospace"
+        android:background="@drawable/background_featured"
+        android:padding="10sp"
+        android:lineSpacingExtra="2sp"
+        android:text="@string/orderDetails"
+        android:textColor="@color/black"
+        android:textSize="15sp"/>
+
+    <Button
+        android:id="@+id/btnContinue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_file"
+        android:text="@string/continueS"/>
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/button_file"
+        android:padding="2dp"
+        android:text="@string/back"/>
+
+</LinearLayout>

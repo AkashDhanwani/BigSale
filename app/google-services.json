@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "64434033493",
+    "firebase_url": "https://bigsale-59ca3.firebaseio.com",
+    "project_id": "bigsale-59ca3",
+    "storage_bucket": "bigsale-59ca3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:64434033493:android:56303437cfa0ae83",
+        "android_client_info": {
+          "package_name": "com.akash.bigsale"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "64434033493-a6599s3je5esj60cv68i17c70ng9lifc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.akash.bigsale",
+            "certificate_hash": "c232af93d8113d47508c7b010f651b884aa130f7"
+          }
+        },
+        {
+          "client_id": "64434033493-tdeb74i1enc2vem8a7itedeu62h0ujgf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-cOaR2kcP9BLkCNUt6JpqaiYpmv89Nyc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "64434033493-tdeb74i1enc2vem8a7itedeu62h0ujgf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

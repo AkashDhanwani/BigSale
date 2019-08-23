@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ca0101</color>
+    <color name="colorPrimaryDark">#7e0101</color>
+    <color name="colorAccent">#F1B40C</color>
+
+    <color name="black">#000000</color>
+    <color name="priceColor">#b71c1c</color>
+    <color name="big">#ca0101</color>
+    <color name="sale">#F1B40C</color>
+    <color name="white">#ffffff</color>
+    <color name="lightGrey">#e0e0e0</color>
+    <color name="grey">#616161</color>
+    <color name="darkblack">#515151</color>
+    <color name="btnNotPressed">#F1B40C</color>
+    <color name="btnPressed">#00ffff</color>
+</resources>

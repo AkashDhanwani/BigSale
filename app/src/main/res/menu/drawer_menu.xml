@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/garments"
+            android:icon="@drawable/ladydress"
+            android:title="@string/garments" />
+
+        <item
+            android:id="@+id/electronics"
+            android:icon="@drawable/ic_electronics_24dp"
+            android:title="@string/electronics" />
+
+        <item
+            android:id="@+id/furniture"
+            android:icon="@drawable/ic_furniture_24dp"
+            android:title="@string/furniture" />
+
+        <item
+            android:id="@+id/accessories"
+            android:icon="@drawable/ic_accessories_24dp"
+            android:title="@string/accessories" />
+
+        <item
+            android:id="@+id/cosmetics"
+            android:icon="@drawable/ic_brush_black_24dp"
+            android:title="@string/cosmetics"/>
+
+    </group>
+
+    <group
+        android:id="@+id/group2"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/ic_info_black_24dp"
+            android:title="@string/about" />
+
+        <item
+            android:id="@+id/share"
+            android:icon="@drawable/ic_share_24dp"
+            android:title="@string/share" />
+    </group>
+
+</menu>

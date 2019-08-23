@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Big Sale</string>
+
+    <string name="furniture">Furniture</string>
+    <string name="electronics">Electronics</string>
+    <string name="garments">Garments</string>
+    <string name="accessories">Accessories</string>
+    <string name="about">About Us</string>
+    <string name="share">Share</string>
+    <string name="noProduct">No product found for this category</string>
+    <string name="only">#OnlyOnBigSale</string>
+    <string name="cosmetics">Cosmetics</string>
+    <string name="noFeatureProduct">No Featured Products for now.</string>
+    <string name="desc">Description</string>
+    <string name="quantity">Quantity</string>
+    <string name="placeOrder">Place order</string>
+    <string name="continueS">Continue Shopping</string>
+    <string name="totalCost">The total amount to be paid is\n ₹</string>
+
+    <string name="version">Version 1.0</string>
+    <string name="connect">Connect with us</string>
+    <string name="messageus">Contact Us</string>
+    <string name="wasp">WhatsApp Us</string>
+    <string name="gmail">Mail Us</string>
+    <string name="aboutme"><b><font color='#2169f3'>About Creator</font></b></string>
+
+
+    <string name="enquiry">Contact Big Sale for more info about the product.
+        \nContact Info: +91-8605982854 (or press the phone icon at top right of screen).</string>
+    <string name="orderDetails">Order Details</string>
+
+    <string name="message">Give the above order to Big Sale through:</string>
+    <string name="payment">Payment Details</string>
+    <string name="back">Go Back</string>
+    <string name="call">Call Ganesh</string>
+    <string name="aboutbg">BIg Sale is the brand new shopping platform started by Ganesh Gadekar.</string>
+    <string name="aboutAkash">Developed by Akash Dhanwani</string>
+    <string name="aboutAD">AD App Solutions</string>
+    <string name="connectme">Connect with me through:</string>
+</resources>
